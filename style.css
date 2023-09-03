@@ -1,10 +1,14 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
 .header {
-    width: 900px;
     height: 45px;
+    background-color: #1F2937;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 auto;
+    padding: 0 200px;
 }
 
 img {
@@ -24,16 +28,21 @@ img {
 }
 
 .logo-text {
-    font-size: 24px 
+    color: white;
+    font-size: 24px;
+    font-weight: 900;
 }
 
 ul {
     list-style: none;
     display: flex;
-    gap: 12px;
+    gap: 35px;
+    padding: 0;
+    margin: 0;
 }
 
 a:link, a:visited {
     text-decoration: none;
-    font-size: 20px;
+    color: white;
+    font-size: 18px;
 }
