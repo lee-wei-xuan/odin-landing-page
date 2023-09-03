@@ -95,3 +95,31 @@ button {
     font-size: 16px;
     font-weight: bold;
 }
+
+.sushi-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    margin: 35px auto;`
+}
+
+.sushi-info {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.card {
+}
+
+
+
+.text {
+    text-align: center;
+}
+
+.sushi-image {
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+}
