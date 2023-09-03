@@ -1,0 +1,74 @@
+<div class="black-background">
+            <div class="header">
+                <div class="logo-image"><img src=image/sushi.png alt="Sushi Logo"></div>
+                <div class="logo-text">Sushi in Singapore</div>
+                <ul>
+                    <li><a href="https://www.tripadvisor.com.sg/Restaurants-g294265-c38-Singapore.html" target="_blank" rel=”noopener noreferrer”>Restaurants</a></li>
+                    <li><a href="https://sgmagazine.com/restaurants/article/most-celebrated-japanese-celebrity-chefs-singapore-bite-japan/" target="_blank" rel=”noopener noreferrer”>Chefs</a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/History_of_sushi" target="_blank" rel=”noopener noreferrer”>History</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="body">
+            <div class="introduction">
+                <div class="introduction-text">
+                    <div class="main-text">
+                        Discover Sushi in Singapore!
+                    </div>
+                    <div class="secondary-text">
+                        Sushi being one of the most iconic Japanese food is very 
+                        popular in Singapore too. Keep reading to learn more!
+                    </div>
+                    <button>Learn more</button>
+                </div>
+                <!-- <div class="introduction-img"><img src="image/sushi-plate.jpg" alt="Sushi Plate"></div> -->
+            </div>
+            <div class="sushi">
+                <div class="sushi-title">Sushi you must try!</div>
+                <div class="sushi-info">
+                    <div class="card">
+                        <img class="sushi-image" src="image/california-roll.png" alt="California Roll">
+                        <div class="text">California Roll</div>
+                    </div>
+                    <div class="card">
+                        <img class="sushi-image" src="image/shrimp.png" alt="Shrimp">
+                        <div class="text">Shrimp Sushi</div>
+                    </div>
+                    <div class="card">
+                        <img class="sushi-image" src="image/tamagoyaki.png" alt="Tamagoyaki">
+                        <div class="text">Tamagoyaki</div>
+                    </div>
+                    <div class="card">
+                        <img class="sushi-image" src="image/nigiri.png" alt="Nigiri">
+                        <div class="text">Nigiri</div>
+                    </div>
+                </div>
+            </div>
+            <div class="quote">
+                <div class="sentence">
+                    Each sushi represents a different patch of sea under a different shade of sky. Get your friends & come enjoy a great sushi taste in our combo of 70 pieces platter!
+                </div>
+                <div class="source">
+                    <a href="https://www.instagram.com/sushi_town_egypt/?e=85847887-a322-42e0-b2af-647370cc6678&g=5" target="_blank" rel=”noopener noreferrer”>- sushi_town_eygpt (Instagram)</a>
+                </div>
+            </div>
+        </div>
+        <div class="more">
+            <div class="more-container">
+                <div class="more-info">
+                    <div class="more-title">
+                        Follow us on other platforms!
+                    </div>
+                    <div class="more-text">
+                        We regularly update the content here to make sure that you always know where to find the best Japanese food in Singapore!
+                    </div>
+                </div>
+                <button>Follow</button>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer-text">
+                Copyright © The Odin Project 2023 (Implemented by Lee Wei Xuan)
+            </div>
+        </div>

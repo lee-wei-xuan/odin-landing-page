@@ -1,41 +1,44 @@
+/* body */
+
 body {
     font-family: sans-serif;
     margin: 0;
     display: flex;
     flex-direction: column;
 }
-.header, .introduction {
+
+/* body > .black-container */
+
+.black-container {
     background-color: #1F2937;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 16px 200px;
 }
+
+/* body > .black-container > .white-content*/
+
+.white-content {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    margin: 0px auto;
+}
+
+/* body > .black-container > .white-content > .header*/
 
 .header {
-    height: 45px;
-}
-
-img {
-    max-height: 300px;
-}
-
-.logo-image {
-    height: 45px;
-    display: flex;
-}
-
-.logo {
-    height: 45px;
     display: flex;
     align-items: center;
-    gap: 12px
+}
+
+.logo-image img {
+    width: 45px;
+    height: 45px;
 }
 
 .logo-text {
-    color: white;
     font-size: 24px;
     font-weight: 900;
+    margin-right: auto;
 }
 
 ul {
@@ -52,40 +55,28 @@ a:link, a:visited {
     font-size: 18px;
 }
 
+/* body > .black-container > .white-content > .introduction*/
+
 .introduction {
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-
+    justify-content: center;
+    align-items: center;
 }
 
-.introduction-text, .introduction-img {
-    flex: 1 1 0;
-    gap: 12px;
-    margin: 16px;
-}
+/* body > .black-container > .white-content > .introduction 
+        > .introduction-text*/
 
 .introduction-text {
-    margin-right: 12px;
+    flex:1
 }
-
-.introduction-img {
-    margin-left: 12px;
-    display: flex;
-    justify-content: flex-end;
-}
-
 
 .main-text {
-    color: white;
     font-size: 48px;
     font-weight: 900;
-    display: flex;
     margin-bottom: 12px;
 }
 
 .secondary-text{
-    color: white;
     font-size: 18px;
     margin-bottom: 12px;
 }
@@ -94,109 +85,20 @@ button {
     border: 0;
     border-radius: 5px;
     padding: 6px 20px;
+    margin: 8px 0;
     background-color: #3882F6;
     color: white;
     font-size: 16px;
     font-weight: bold;
 }
 
-.sushi-title {
-    text-align: center;
-    font-size: 36px;
-    font-weight: 900;
-    margin: 35px auto;
+/* body > .black-container > .white-content > .introduction 
+        > .introduction-image*/
+
+.introduction-image{
+    flex:1
 }
 
-.sushi-info {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
-    flex-wrap: wrap;
+.introduction-image img {
+    max-width: 100%;
 }
-
-.text {
-    margin-top: 12px;
-    font-size: 18px;
-    text-align: center;
-}
-
-.sushi-image {
-    border: 5px solid black;
-    border-radius: 10px;
-    padding: 12px;
-    max-width: 100px;
-    height: 100px;
-}
-
-.quote {
-    background-color: #E5E7EB;
-}
-
-.sentence {
-    
-    padding: 70px 275px 10px 275px;
-    font-size: 36px;
-    font-style: italic;
-}
-
-.source {
-    padding: 10px 275px 70px 275px;
-    text-align: right;
-    font-size: 20px;
-    font-weight: 1000;
-}
-
-.source a {
-    color: black;
-}
-
-.more {
-    padding: 50px 200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.more-container {
-    background-color: #3882F6;
-    padding: 50px 100px;
-    width: 900px;
-    border-radius: 15px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.more-info {
-    max-width: 600px;
-}
-
-.more-title, .more-text {
-    color: white;
-    margin-bottom: 10px;
-}
-
-.more-title {
-    font-size: 24px;
-    font-weight: 1000;
-}
-
-.more button {
-    border: 3px solid white;
-    width: 100px;
-    height: 40px;
-}
-
-.footer {
-    height:100px;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #1F2937;
-}
-
-.footer-text {
-    color: white;
-}
-
